@@ -1,4 +1,4 @@
-# GSCF-Net (Graph–SMILES Cross-attention Fusion Network)
+# GSCF-Net
 
 ## Requirements (short)
 
