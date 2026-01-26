@@ -44,17 +44,6 @@ python GSCF-Net_finetune.py --dataset BBBP --config config_cross_attention_ratio
 
 ## Configuration
 
-Training parameters are specified via a YAML config (e.g. `config_cross_attention_ratio.yaml`).
-Key options include learning rates, batch size, epochs, the ChemBERTa model name,
-and dataset splitting parameters.
-
-Important config fields (examples):
-
-- `cross_attention_specific.chemberta_model_name` — ChemBERTa tokenizer/model path
-- `cross_attention_specific.chemberta_lr` — learning rate for the LM parameters
-- `init_base_lr`, `init_lr` — learning rates for GNN and head/fusion parameters
-- `dataset.valid_size`, `dataset.test_size`, `dataset.splitting`
-
 ## Supported datasets
 
 The scripts use `DATASET_CONFIGS` defined inside the main training script. Expected
